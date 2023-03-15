@@ -1,4 +1,4 @@
-import route from "../src/Router/router";
+import route from "../Router/router";
 import cors from 'cors';
 import { NextFunction, Request, Response } from "express";
 import express from "express";

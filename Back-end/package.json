@@ -2,11 +2,11 @@
   "name": "desafiotecnicobeon",
   "version": "1.0.0",
   "description": "",
-  "main": "api/server.ts",
+  "main": "src/api/server.ts",
   "scripts": {
     "test": "jest -i --verbose",
-    "start": "ts-node api/server.ts",
-    "dev": "nodemon --watch 'src/' --exec 'ts-node api/server.ts' -e ts"
+    "start": "ts-node src/api/server.ts",
+    "dev": "nodemon --watch 'src/' --exec 'ts-node src/api/server.ts' -e ts"
   },
   "author": "Thaísy Morais",
   "license": "ISC",
