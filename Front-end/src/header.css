@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&family=Pacifico&display=swap');
+
+.header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 800px;
+  border-bottom: 2px dashed black;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+}
+
+h2, p, a {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+}
+
+#input-search {
+  width: 350px;
+  height: 40px;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.button-search {
+  width: 100px;
+  height: 35px;
+  border-radius: 80px;
+}
+
+.button-search:hover {
+  background-color: #930c9c;
+  color: aliceblue;
+  font-weight: bold;
+}
+
+#filter-area {
+  display: flex;
+  justify-content: center;
+  width: 800px;
+}
+
+.input-filter {
+  width: 60px;
+  height: 35px;
+  padding-left: 6px;
+  border-radius: 8px;
+  margin: 0px 10px;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+th {
+  font-size: 23px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 780px;
+  overflow-x: auto;
+  margin-top: 12px;
+}
+
+#button-details {
+  padding: 4px;
+  border-radius: 20px;
+}
+
+#button-details:hover {
+  background-color: #930c9c;
+  color: aliceblue;
+  font-weight: bold;
+}
+
+#details-area {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+a {
+  color: black;
+  font-size: 20px;
+}
+
+a:hover {
+  color: aliceblue;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  width: 800px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.button-footer {
+  margin: 3px;
+  width: 40px;
+  height: 40px;
+  border-radius: 30px;
+}
+
+.button-footer:hover {
+  background-color: #930c9c;
+  color: aliceblue;
+  font-weight: bold;
+}
