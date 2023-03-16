@@ -1,4 +1,5 @@
 # Boas-vindas ao repositório do desafio técnico
+https://user-images.githubusercontent.com/102544688/225543740-8d4b6030-76c8-486a-9581-8cfa7952011e.mp4
 
 Aplicação desenvolvida para realização do desafio técnico.
 
@@ -11,12 +12,13 @@ Aplicação desenvolvida para realização do desafio técnico.
   com dados consumidos do Back-end.
 
   <br>
-  <summary><strong>👉 Quais as funcionalidades</strong></summary>
+  <summary><strong>👉 Quais as funcionalidades:</strong></summary>
   
   - Filtrar os livros por autor, título ou idioma;
   - Filtrar os livros por período em ano;
   - Limpar os filtros;
-  - Tabela feita com paginação, mostrando até 10 livros por página.
+  - Tabela feita com paginação, mostrando até 10 livros por página;
+  - Mostra a quantidade de livros encontrados.
 
   <br>
 </details>
@@ -24,6 +26,7 @@ Aplicação desenvolvida para realização do desafio técnico.
 # Instruções de instalação
 
 <details>
+  <summary><strong>Saiba mais:</strong></summary>
   <summary><strong>👉 Passo 1:</strong></summary>
 
   - Clone o repositório:
@@ -38,7 +41,9 @@ Aplicação desenvolvida para realização do desafio técnico.
   <summary><strong>👉 Passo 2, portas utilizadas:</strong></summary>
   
   O banco de dados (MongoDB) rodará na porta 27017;
+  <br>
   A aplicação Back-end rodará na porta 3006;
+  <br>
   A aplicação Front-end rodará na porta 3000;
 
   - <strong>Certifique-se de que estas portas não estejam em uso para que não haja conflito.</strong>
@@ -48,7 +53,7 @@ Aplicação desenvolvida para realização do desafio técnico.
   <summary><strong>👉 Passo 3, popule o banco de dados:</strong></summary>
 
   - Na pasta Back-end, execute o comando:
-   ```mongoimport -d book -c books --file db.json```
+   ```mongoimport -d books -c books --file db.json```
 
   <br>
 </details>
@@ -56,6 +61,7 @@ Aplicação desenvolvida para realização do desafio técnico.
 # Executando a aplicação
 
 <details>
+  <summary><strong>Saiba mais:</strong></summary>
   <summary><strong>👉 Back-end:</strong></summary>
 
   - Na pasta Back-end, execute o comando:
@@ -63,7 +69,7 @@ Aplicação desenvolvida para realização do desafio técnico.
 
   Deverá aparecer a mensagem 'Running server on port: 3006'.
   
-  É recomendado utilizar o comando npm run dev executará o nodemon, que ficará ativo e atualizará caso seja feita alterações nos arquivos.
+  É recomendado utilizar o comando 'npm run dev' que executará o nodemon. Ele ficará ativo e atualizará caso sejam feitas alterações nos arquivos.
 
   <br>
   <summary><strong>👉 Front-end:</strong></summary>
