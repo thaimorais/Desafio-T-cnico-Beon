@@ -9,7 +9,7 @@ Aplicação desenvolvida para realização do desafio técnico.
 <details>
   <summary><strong>👨‍💻  O que foi desenvolvido</strong></summary>
 
-  Consiste em uma aplicação Front-end renderizando tabela com livros e seus respectivos atributos e informações,
+  Consiste em uma aplicação Front-end renderizando uma tabela com livros e seus respectivos atributos e informações,
   com dados consumidos do Back-end.
 
   <br>
