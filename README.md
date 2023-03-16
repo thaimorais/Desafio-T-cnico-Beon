@@ -11,7 +11,6 @@ Aplicação desenvolvida para realização do desafio técnico.
   com dados consumidos do Back-end.
 
   <br>
-  <summary><strong>Saiba mais:</strong></summary>
   <summary><strong>👉 Quais as funcionalidades</strong></summary>
   
   - Filtrar os livros por autor, título ou idioma;
@@ -25,6 +24,7 @@ Aplicação desenvolvida para realização do desafio técnico.
 # Instruções de instalação
 
 <details>
+  <summary><strong>Saiba mais:</strong></summary>
   <summary><strong>👉 Passo 1:</strong></summary>
 
   - Clone o repositório:
@@ -57,6 +57,7 @@ Aplicação desenvolvida para realização do desafio técnico.
 # Executando a aplicação
 
 <details>
+  <summary><strong>Saiba mais:</strong></summary>
   <summary><strong>👉 Back-end:</strong></summary>
 
   - Na pasta Back-end, execute o comando:
