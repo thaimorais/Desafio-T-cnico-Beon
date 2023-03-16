@@ -11,12 +11,13 @@ Aplicação desenvolvida para realização do desafio técnico.
   com dados consumidos do Back-end.
 
   <br>
-  <summary><strong>👉 Quais as funcionalidades</strong></summary>
+  <summary><strong>👉 Quais as funcionalidades:</strong></summary>
   
   - Filtrar os livros por autor, título ou idioma;
   - Filtrar os livros por período em ano;
   - Limpar os filtros;
-  - Tabela feita com paginação, mostrando até 10 livros por página.
+  - Tabela feita com paginação, mostrando até 10 livros por página;
+  - Mostra a quantidade de livros encontrados.
 
   <br>
 </details>
