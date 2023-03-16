@@ -1,6 +1,7 @@
 # Boas-vindas ao repositório do desafio técnico
 https://user-images.githubusercontent.com/102544688/225543740-8d4b6030-76c8-486a-9581-8cfa7952011e.mp4
 
+<br>
 Aplicação desenvolvida para realização do desafio técnico.
 
 # Sobre o projeto
@@ -26,7 +27,7 @@ Aplicação desenvolvida para realização do desafio técnico.
 # Instruções de instalação
 
 <details>
-  <summary><strong>Saiba mais:</strong></summary>
+  <summary><strong>👨‍💻 Saiba mais:</strong></summary>
   <summary><strong>👉 Passo 1:</strong></summary>
 
   - Clone o repositório:
@@ -61,7 +62,7 @@ Aplicação desenvolvida para realização do desafio técnico.
 # Executando a aplicação
 
 <details>
-  <summary><strong>Saiba mais:</strong></summary>
+  <summary><strong>👨‍💻 Saiba mais:</strong></summary>
   <summary><strong>👉 Back-end:</strong></summary>
 
   - Na pasta Back-end, execute o comando:
@@ -86,6 +87,32 @@ Aplicação desenvolvida para realização do desafio técnico.
   A aplicação possui teste unitário da camada service. Para executá-lo, na pasta Back-end, execute:
 
    ```npm run test tests/unit/BookService,test.ts```
+
+  <br>
+</details>
+
+# Rotas de requisição para o banco de dados
+
+<details>
+  <summary><strong>👨‍💻 Saiba mais</strong></summary>
+
+  A aplicação faz requisições ao MongoDB, utilizando o banco de dados Books e a coleção Books, criados e provoados
+  anteriormente no item ```instruções de intalação > Passo 3```.
+
+  Para testar essas requisições, utilize o método GET e passe ```http://localhost:3006``` no Postman ou ThunderClient, adicionando a rota que deseja requisitar, sendo elas:
+
+  - ```/books```: retorna status 200 e todos os livros cadastrados no banco de dados;
+  - ```/foundbooks```: retorna status 200 e todos os livros encontrados que correspondem ao filtro;
+  <strong>Deve ser passado no ```headers``` a chave ```fetchby``` e o valor a ser utilizado na busca (ex.: english).</strong> 
+  - ```/filterByPeriod```: retorna status 200 e todos os livros encontrados que correspondem ao filtro.
+  <strong>Deve ser passado no ```headers``` as chaves ```minimumyear``` e ```maximumyear``` e o valor a ser utilizado na busca (ex.: '1950' e '1980').</strong> 
+
+  <br>
+  <summary><strong>👉 Entenda as rotas:</strong></summary>
+  
+  A rota ```foundbooks``` recebe um valor que seja correspondente ao autor, título ou idioma e faz a comparação com as informações contidas em cada livro e o retorna caso for verdadeiro.
+
+  A rota ```filterByPeriod``` recebe dois valores, sendo eles o ano mínimo e o ano máximo, respectivamente. Faz a comparação com o ano de lançamento de cada livro e o retorna caso este estiver dentro do período filtrado.
 
   <br>
 </details>
