@@ -105,10 +105,10 @@ Aplicação desenvolvida para realização do desafio técnico.
   - ```/foundbooks```: retorna status 200 e todos os livros encontrados que correspondem ao filtro;
 
   <strong>Deve ser passado no ```headers``` a chave ```fetchby``` e o valor a ser utilizado na busca (ex.: english).</strong> 
-
   <br>
+
   - ```/filterByPeriod```: retorna status 200 e todos os livros encontrados que correspondem ao filtro.
-  
+
   <strong>Deve ser passado no ```headers``` as chaves ```minimumyear``` e ```maximumyear``` e o valor a ser utilizado na busca (ex.: '1950' e '1980').</strong> 
 
   <br>
