@@ -86,7 +86,7 @@ Aplicação desenvolvida para realização do desafio técnico.
 
   A aplicação possui teste unitário da camada service. Para executá-lo, na pasta Back-end, execute:
 
-   ```npm run test tests/unit/BookService,test.ts```
+   ```npm run test tests/unit/BookService.test.ts```
 
   <br>
 </details>
