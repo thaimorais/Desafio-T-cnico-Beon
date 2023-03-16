@@ -1,7 +1,7 @@
 import BooksODM from "../Models/BooksODM";
 
 export default class BooksService {
-  public async getAllBooks() { 
+  public async getAllBooks() {
     const booksODM = new BooksODM();
     const books = await booksODM.findAll();
 

@@ -18,6 +18,4 @@ route.get(
   (req, res, next) => new BooksController(req, res, next).getAllBooks(),
 )
 
-
-
 export default route;
