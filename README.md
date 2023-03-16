@@ -39,7 +39,9 @@ Aplicação desenvolvida para realização do desafio técnico.
   <summary><strong>👉 Passo 2, portas utilizadas:</strong></summary>
   
   O banco de dados (MongoDB) rodará na porta 27017;
+  <br>
   A aplicação Back-end rodará na porta 3006;
+  <br>
   A aplicação Front-end rodará na porta 3000;
 
   - <strong>Certifique-se de que estas portas não estejam em uso para que não haja conflito.</strong> -
