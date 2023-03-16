@@ -51,7 +51,7 @@ Aplicação desenvolvida para realização do desafio técnico.
   <summary><strong>👉 Passo 3, popule o banco de dados:</strong></summary>
 
   - Na pasta Back-end, execute o comando:
-   ```mongoimport -d book -c books --file db.json```
+   ```mongoimport -d books -c books --file db.json```
 
   <br>
 </details>
