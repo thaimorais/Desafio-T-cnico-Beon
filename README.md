@@ -67,7 +67,7 @@ Aplicação desenvolvida para realização do desafio técnico.
 
   Deverá aparecer a mensagem 'Running server on port: 3006'.
   
-  É recomendado utilizar o comando npm run dev executará o nodemon, que ficará ativo e atualizará caso seja feita alterações nos arquivos.
+  É recomendado utilizar o comando 'npm run dev' que executará o nodemon, que ficará ativo e atualizará caso seja feita alterações nos arquivos.
 
   <br>
   <summary><strong>👉 Front-end:</strong></summary>
