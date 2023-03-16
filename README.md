@@ -97,20 +97,22 @@ Aplicação desenvolvida para realização do desafio técnico.
   <summary><strong>👨‍💻 Saiba mais</strong></summary>
 
   A aplicação faz requisições ao MongoDB, utilizando o banco de dados Books e a coleção Books, criados e provoados
-  anteriormente no item ```instruções de intalação > Passo 3```.
+  anteriormente no item ```instruções de instalação > Passo 3```.
 
   Para testar essas requisições, utilize o método GET e passe ```http://localhost:3006``` no Postman ou ThunderClient, adicionando a rota que deseja requisitar, sendo elas:
 
   - ```/books```: retorna status 200 e todos os livros cadastrados no banco de dados;
   - ```/foundbooks```: retorna status 200 e todos os livros encontrados que correspondem ao filtro;
+  <br>
   <strong>Deve ser passado no ```headers``` a chave ```fetchby``` e o valor a ser utilizado na busca (ex.: english).</strong> 
   - ```/filterByPeriod```: retorna status 200 e todos os livros encontrados que correspondem ao filtro.
+  <br>
   <strong>Deve ser passado no ```headers``` as chaves ```minimumyear``` e ```maximumyear``` e o valor a ser utilizado na busca (ex.: '1950' e '1980').</strong> 
 
   <br>
   <summary><strong>👉 Entenda as rotas:</strong></summary>
   
-  A rota ```foundbooks``` recebe um valor que seja correspondente ao autor, título ou idioma e faz a comparação com as informações contidas em cada livro e o retorna caso for verdadeiro.
+  A rota ```foundbooks``` recebe um valor que seja correspondente ao autor, título ou idioma, faz a comparação com as informações contidas em cada livro e o retorna caso for verdadeiro.
 
   A rota ```filterByPeriod``` recebe dois valores, sendo eles o ano mínimo e o ano máximo, respectivamente. Faz a comparação com o ano de lançamento de cada livro e o retorna caso este estiver dentro do período filtrado.
 
