@@ -47,9 +47,9 @@ Aplicação desenvolvida para realização do desafio técnico.
 
   - Clone o repositório:
    ```git clone git@github.com:thaimorais/Desafio-T-cnico-Beon.git```
-  - Na pasta Back-end, instale as dependências:
+  - Na pasta Back-end no seu terminal, instale as dependências:
    ```npm install```
-  - Na pasta Front-end, instale as dependências:
+  - Na pasta Front-end no seu terminal, instale as dependências:
    ```npm install```
 
   <br>
@@ -61,6 +61,8 @@ Aplicação desenvolvida para realização do desafio técnico.
   A aplicação Back-end rodará na porta 3006;
   <br>
   A aplicação Front-end rodará na porta 3000;
+  <br>
+  O Redis rodará na porta 6379. 
 
   - <strong>Certifique-se de que estas portas não estejam em uso para que não haja conflito.</strong>
 
@@ -68,7 +70,7 @@ Aplicação desenvolvida para realização do desafio técnico.
 
   <summary><strong>👉 Passo 3, popule o banco de dados:</strong></summary>
 
-  - Na pasta Back-end, execute o comando:
+  - Na pasta Back-end no seu terminal, execute o comando:
    ```mongoimport -d books -c books --file db.json```
 
   <br>
@@ -80,7 +82,7 @@ Aplicação desenvolvida para realização do desafio técnico.
   <summary><strong>👨‍💻 Saiba mais:</strong></summary>
   <summary><strong>👉 Back-end:</strong></summary>
 
-  - Na pasta Back-end, execute o comando:
+  - Na pasta Back-end no seu terminal, execute o comando:
    ```npm run dev``` ou ```npm start```
 
   Deverá aparecer a mensagem 'Running server on port: 3006'.
@@ -90,7 +92,7 @@ Aplicação desenvolvida para realização do desafio técnico.
   <br>
   <summary><strong>👉 Front-end:</strong></summary>
 
-  - Na pasta Front-end, execute o comando:
+  - Na pasta Front-end no seu terminal, execute o comando:
    ```npm start```
   
   O comando abrirá uma aba no seu navegador exibindo a aplicação. O Back-end deverá estar executando corretamente
@@ -99,7 +101,7 @@ Aplicação desenvolvida para realização do desafio técnico.
   <br>
   <summary><strong>👉 Testes:</strong></summary>
 
-  A aplicação possui teste unitário da camada service. Para executá-lo, na pasta Back-end, execute:
+  A aplicação possui teste unitário da camada service. Para executá-lo, na pasta Back-end no seu terminal, execute:
 
    ```npm run test tests/unit/BookService.test.ts```
 
@@ -132,6 +134,40 @@ Aplicação desenvolvida para realização do desafio técnico.
   A rota ```foundbooks``` recebe um valor que seja correspondente ao autor, título ou idioma, faz a comparação com as informações contidas em cada livro e o retorna caso for verdadeiro.
 
   A rota ```filterByPeriod``` recebe dois valores, sendo eles o ano mínimo e o ano máximo, respectivamente. Faz a comparação com o ano de lançamento de cada livro e o retorna caso este estiver dentro do período filtrado.
+
+  <br>
+</details>
+
+# Visualização
+
+<details>
+  <summary><strong>👨‍💻 Veja mais:</strong></summary>
+
+  <strong>Requisição à rota ```books``` pelo Thunder Client</strong> 
+  <br>
+
+  - .
+
+  <br>
+
+  <strong>Requisição à rota ```foundbooks``` pelo Thunder Client, passando ```english``` como valor da chave ```fetchby``` no headers.</strong> 
+  <br>
+
+  - .
+
+  <br>
+
+  <strong>Requisição à rota ```filterByPeriod``` pelo Thunder Client, passando ```1950``` e ```1955``` como valor das chaves ```minimumyear``` e ```maximumyear```, respectivamente, no headers.</strong> 
+  <br>
+
+  - .
+
+  <br>
+
+    <strong>Execução dos testes da camada service.</strong> 
+  <br>
+
+  - .
 
   <br>
 </details>
