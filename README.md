@@ -146,28 +146,28 @@ Aplicação desenvolvida para realização do desafio técnico.
   <strong>Requisição à rota ```books``` pelo Thunder Client</strong> 
   <br>
 
-  - .
+  https://user-images.githubusercontent.com/102544688/225731477-5e6325be-13c6-4313-8750-a7530bc0b6b4.mp4
 
   <br>
 
   <strong>Requisição à rota ```foundbooks``` pelo Thunder Client, passando ```english``` como valor da chave ```fetchby``` no headers.</strong> 
   <br>
 
-  - .
+  https://user-images.githubusercontent.com/102544688/225731562-f0500949-ba86-4780-beb2-dec6837fb030.mp4
 
   <br>
 
   <strong>Requisição à rota ```filterByPeriod``` pelo Thunder Client, passando ```1950``` e ```1955``` como valor das chaves ```minimumyear``` e ```maximumyear```, respectivamente, no headers.</strong> 
   <br>
 
-  - .
+  https://user-images.githubusercontent.com/102544688/225731620-83a42083-24c3-4218-a74f-9932ba255041.mp4
 
   <br>
 
-    <strong>Execução dos testes da camada service.</strong> 
+  <strong>Execução dos testes da camada service.</strong> 
   <br>
 
-  - .
+  https://user-images.githubusercontent.com/102544688/225731672-19bfaad1-bbd0-4077-9d41-0bdea0b5639e.mp4
 
   <br>
 </details>
