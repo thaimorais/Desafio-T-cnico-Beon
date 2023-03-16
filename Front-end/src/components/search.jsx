@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react';
 import api from '../api/books';
-import '../header.css';
+import '../app.css';
 import AppContext from '../context/AppContext';
 
 export default function Search() {

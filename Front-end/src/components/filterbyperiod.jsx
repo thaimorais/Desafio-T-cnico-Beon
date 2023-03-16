@@ -12,6 +12,11 @@ export default function FilterByPeriod() {
     setBooks(request.data);
   };
 
+  const clearFilters = async () => {
+    const request = await api.getBooks();
+    setBooks(request.data[0].books);
+  };
+
   return (
     <div>
       <h2>Filtrar ano da publicação:</h2>
@@ -39,6 +44,13 @@ export default function FilterByPeriod() {
             onClick={ () => search(minimumYear, maximumYear) }
           >
             Pesquisar
+          </button>
+          <button
+            className='button-search'
+            type="button"
+            onClick={ () => clearFilters() }
+          >
+            Limpar filtros
           </button>
         </div>
     </div>
