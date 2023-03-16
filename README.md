@@ -11,6 +11,7 @@ Aplicação desenvolvida para realização do desafio técnico.
   com dados consumidos do Back-end.
 
   <br>
+  <summary><strong>Saiba mais:</strong></summary>
   <summary><strong>👉 Quais as funcionalidades</strong></summary>
   
   - Filtrar os livros por autor, título ou idioma;
