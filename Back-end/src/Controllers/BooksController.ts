@@ -32,7 +32,7 @@ export default class BooksController {
     
   }
 
-  public async fetchBooks() {
+  public async fetchBooks() {  
     try {
       const { fetchby } = this.req.headers;
       if (typeof(fetchby) == 'string') {

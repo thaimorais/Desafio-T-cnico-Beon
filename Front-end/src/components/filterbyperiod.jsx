@@ -5,9 +5,10 @@ import AppContext from '../context/AppContext';
 export default function FilterByPeriod() {
   const [minimumYear, setMinimumYear] = useState(0);
   const [maximumYear, setMaximumYear] = useState(0);
-  const { setBooks } = useContext(AppContext);
+  const { setBooks, setCurrentPage } = useContext(AppContext);
 
   const search = async (minimumYear, maximumYear) => {
+    setCurrentPage(0);
     const request = await api.filterByPeriod(minimumYear, maximumYear);
     setBooks(request.data);
   };

@@ -1,17 +1,17 @@
 import BooksODM from "../Models/BooksODM";
 
 export default class BooksService {
-  public async getAllBooks() {
+  public async getAllBooks() {    
     const booksODM = new BooksODM();
     const books = await booksODM.findAll();
 
     return books;
   }
 
-  public async fetchBooks(value: string) {
+  public async fetchBooks(value: string) {    
     const allBooks = await this.getAllBooks();
     const { books } = allBooks[0];
-
+    
     const found = books.filter((book) => (
         book.author.toLowerCase() === value 
         || book.language.toLowerCase() === value 

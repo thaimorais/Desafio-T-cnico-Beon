@@ -3,10 +3,9 @@ import AppContext from '../context/AppContext';
 
 export default function ListBooks() {
   const [booksPerPage, _setBooksPerPage] = useState(10);
-  const [currentPage, setCurrentPage] = useState(0);
   const [details, setDetails] = useState({});
   const [showDetails, setShowDetails] = useState(Boolean);
-  const { books } = useContext(AppContext);
+  const { books, currentPage, setCurrentPage } = useContext(AppContext);
 
   const quantityPages = Math.ceil(books.length / booksPerPage);
   const firstBook = currentPage * booksPerPage;
@@ -72,7 +71,9 @@ export default function ListBooks() {
             </div>
           )
         }
-        
+        {
+          <p>Livros encontrados: { books.length }</p>
+        }
       </div>
       <footer>
           {

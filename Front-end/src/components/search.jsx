@@ -5,9 +5,10 @@ import AppContext from '../context/AppContext';
 
 export default function Search() {
   const [valueToSearch, setValueToSearch] = useState('');
-  const { setBooks } = useContext(AppContext);
+  const { setBooks, setCurrentPage } = useContext(AppContext);
 
   const search = async (value) => {
+    setCurrentPage(0);
     const request = await api.foundBooks(value);
     setBooks(request.data);
   };

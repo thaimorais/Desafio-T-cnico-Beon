@@ -41,7 +41,7 @@ Aplicação desenvolvida para realização do desafio técnico.
   A aplicação Back-end rodará na porta 3006;
   A aplicação Front-end rodará na porta 3000;
 
-  - <strong>Certifique-se de que estas portas não estejam em uso para que não haja conflito.</strong> -
+  - <strong>Certifique-se de que estas portas não estejam em uso para que não haja conflito.</strong>
 
   <br>
 

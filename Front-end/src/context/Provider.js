@@ -5,6 +5,7 @@ import AppContext from './AppContext';
 
 function Provider({ children }) {
   const [books, setBooks] = useState([]);
+  const [currentPage, setCurrentPage] = useState(0);
 
   useEffect(() => {
     const fetchBooks = async () => {
@@ -17,7 +18,9 @@ function Provider({ children }) {
   const contextValue = useMemo(() => ({
     books,
     setBooks,
-  }), [books, setBooks]);
+    currentPage,
+    setCurrentPage
+  }), [books, setBooks, currentPage, setCurrentPage]);
 
   return (
     <AppContext.Provider value={ contextValue }>
