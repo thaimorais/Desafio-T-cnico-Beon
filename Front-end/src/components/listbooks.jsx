@@ -67,7 +67,7 @@ export default function ListBooks() {
               />
               <p>País: { details.country }</p>
               <p>Páginas: { details.pages }</p>
-              <a href={ details.link }>Saiba mais</a>
+              <a href={ details.link } target='_blank'>Saiba mais</a>
             </div>
           )
         }

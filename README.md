@@ -22,6 +22,21 @@ Aplicação desenvolvida para realização do desafio técnico.
   - Mostra a quantidade de livros encontrados.
 
   <br>
+
+  <summary><strong>👉 Ferramentas utilizadas:</strong></summary>
+  
+  - Typescript para desenvolvimento do Back-end;
+  - React para desenvolvimento do Front-end;
+  - Context API para gerenciamento de estado;
+  - Redis para armazenamento em cache;
+  - Axios para integração do Front-end com o Back-end;
+  - Banco de dados NoSQL MongoDB;
+  - Express para gerenciar requisições HTTP;
+  - Mongoose para modelagem de dados entre MongoDB e Node.js;
+  - Chai, Sinon e Jest para teste unitário;
+  - Manipulação do CORS para permitir acesso do Front-end à API.
+
+  <br>
 </details>
 
 # Instruções de instalação
